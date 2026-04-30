@@ -7,8 +7,9 @@
 
 // ── API Base URL ───────────────────────────────────────────────────────────────
 // ⚠️ IMPORTANT: After deploying to Render, replace this with your Render URL
-// Example: const BACKEND = 'https://your-app-name.onrender.com';
-const BACKEND = 'https://YOUR-APP-NAME.onrender.com';
+// For local development, use localhost:5000
+// In production on Vercel, set this to your Render backend URL
+const BACKEND = window.APP_BACKEND_URL || 'http://localhost:5000';
 
 // ── API endpoints ──────────────────────────────────────────────────────────────
 const API = {
