@@ -9,7 +9,7 @@
 // ⚠️ IMPORTANT: After deploying to Render, replace this with your Render URL
 // For local development, use localhost:5000
 // In production on Vercel, set this to your Render backend URL
-const BACKEND = window.APP_BACKEND_URL || 'http://localhost:5000';
+const BACKEND = 'https://bullet-ai.onrender.com';
 
 // ── API endpoints ──────────────────────────────────────────────────────────────
 const API = {
